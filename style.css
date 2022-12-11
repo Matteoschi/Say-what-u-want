@@ -1,0 +1,40 @@
+body{
+    background: linear-gradient(to bottom left, #3333ff 4%, #3399ff 99%);
+}
+.conteiner{
+    position:absolute;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    width: 30%;
+    height: 75%;
+    margin-top: 12.5%;
+    margin-left: 35%;
+}
+.invio{
+    width: 90%;
+    height: 10%;
+    margin-left: 5%;
+    border-radius: 10px;
+    background: linear-gradient(to right, #3333ff 4%, #00ffff 99%);
+    transition: all 300ms ease-out;
+}
+label{
+    color: rgb(20, 88, 165);
+    margin-left: 5%;
+    font-size: large;
+}
+.input{
+    width: 90%;
+    height: 40px;
+    border-radius: 5px;
+    color: blue;
+    margin-left: 5%;
+    transition: all 300ms ease-out;
+}
+.input:hover{
+    transition: all 200ms ease-in;
+    border-radius: 10px;
+}
+.title{
+    margin-left: 10%;
+}
